@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  height: calc(100vh - 41px);
+  background-color: rgb(62, 62, 62);
+}
+
+.menu {
+  background-color: #333;
+  padding: 10px 0;
+  box-shadow: 0px 1px 8px 0px black;
+  z-index: 1;
+  top: 0;
+  position: sticky;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+
+
+.choose{
+  list-style: none;
+  text-decoration: none;
+  background-color: gray;
+
+  width: 30vw;
+  height: 40vh;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  border: 3px solid;
+  border-radius: 9px;
+  
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins';
+}
+
+.titulo{
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-cat{
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.meio{
+  height: 100% ;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.redes-sociais{
+  height: 88.5vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sociais{
+  background-color: red;
+  padding: 2px;
+  width: 30vw;
+  height: 10%;
+  display: flex;
+  gap: 20%;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+i{
+  background-color: rgba(255, 255, 255, 0.414);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.txt-contato{
+  color: white;
+  font-size: 20px;
+  display: flex;
+  width: 40vw;
+  text-align: center;
+}
+
+.content{
+  height: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobre-txt{
+  /* background-color: rgb(62, 62, 62); */
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  height: 100%;
+  width: 60vw;
+  border-left: 5vw solid rgba(0, 0, 0, 0.468);
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.img{
+  height: 100%;
+  width: 40vw;
+}
+
+.btn-adm{
+  background-color: black;
+  color: white;
+  width: 160px;
+  height: 50px;
+  border-radius: 10px;
+}
+.area-restante{
+  height: 84vh;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.txt-fic{
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: red;
+}
