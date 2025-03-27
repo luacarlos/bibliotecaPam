@@ -79,10 +79,12 @@ a{
 }
 
 .titulo{
+  height: 100%;
   color: white;
   font-size: 25px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .titulo-cat{
@@ -169,6 +171,12 @@ i{
   height: 50px;
   border-radius: 10px;
 }
+
+.btn-adm:hover{
+  cursor: pointer;
+  background-color: #1e1e1e;
+}
+
 .area-restante{
   height: 84vh;
   display: flex;
